@@ -569,7 +569,7 @@
     $r-img-height: 80px;
     $modal-font: 15px;
     $modal-width: 100%;
-    $modal-ratio: 7 / 5;
+    $modal-ratio: 6 / 5;
     @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio);
 }
 @media screen and (min-width: 737px) and (max-width: 980px) {
