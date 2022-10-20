@@ -258,7 +258,14 @@
         &.project_header {
             padding-bottom: 40px;
         }
+        &.contact_header {
+            padding-bottom: 30px;
+        }
         
+    }
+    .contact_p {
+        font-size: $p-about;
+        padding-bottom: 35px;
     }
     .project_p {
         font-size: $p-about;
@@ -487,6 +494,47 @@
         &:hover {
             background-color: rgb(149, 151, 233);
             cursor: pointer;
+        }
+    }
+    .logo_button_container {
+        display: flex;
+    }
+    .logoImgContainer {
+        width: 40px;
+        margin: 10px;
+    }
+    .logoImg {
+        transition: 0.2s;
+        width: 100%;
+        background-color: rgb(105, 105, 105);
+        border: 2px rgb(95, 95, 95) solid;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: rgb(141, 141, 141);
+            border-color: rgb(105, 105, 105);
+            cursor: pointer;
+        }
+    }
+    .intro2 {
+        color:white;
+        text-align: center;
+        max-width: $intro-width;
+        margin-top: 150px;
+        margin-bottom: 50px;
+        padding: 30px;
+        border-radius: 4px;
+        animation: fadeInAnimation ease 0.5s;
+        animation-iteration-count: 1;
+        animation-fill-mode: forwards;
+    
+        h2 {
+            font-size: 50px;
+            padding: 20px;
+        }
+        p {
+            font-size: $p-intro;
+            padding: 20px;
         }
     }
 
