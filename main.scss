@@ -212,6 +212,7 @@
         button {
             transition-duration: 0.2s;
             background-color: rgb(219, 219, 219); 
+            font-size: 14px;
             color: black; 
             padding: 6px;
             margin: 10px;
@@ -220,6 +221,28 @@
             border-radius: 20px;
             border: 0 solid rgb(168, 168, 168);
     
+            &:hover {
+                background-color: rgb(149, 151, 233);
+            cursor: pointer;
+            }
+        }
+        .btn {    
+            transition-duration: 0.2s;
+            background-color: rgb(219, 219, 219);
+            text-decoration: none;
+            color: black; 
+            text-align: center;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            padding: 6px;
+            margin: 10px;
+            width: 100px;
+            height: 38px;
+            border-radius: 20px;
+            border: 0 solid rgb(168, 168, 168);
+        
             &:hover {
                 background-color: rgb(149, 151, 233);
             cursor: pointer;
@@ -517,7 +540,7 @@
     $section-padding: 20px;
     $r-img-width: 60px;
     $r-img-height: 80px;
-    $modal-font: 15px;
+    $modal-font: 20px;
     $modal-width: 80%;
     $modal-ratio: 5 / 3;
     @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio);
@@ -538,7 +561,7 @@
     $section-padding: 30px;
     $r-img-width: 60px;
     $r-img-height: 85px;
-    $modal-font: 15px;
+    $modal-font: 20px;
     $modal-width: 70%;
     $modal-ratio: 5 / 3;
     @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio);
