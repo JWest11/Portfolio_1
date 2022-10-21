@@ -1,4 +1,4 @@
-@mixin styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio) {
+@mixin styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding) {
 
     * {
         font-family: Arial, Helvetica, sans-serif;
@@ -22,7 +22,7 @@
         max-width: $intro-width;
         margin-top: 150px;
         margin-bottom: 50px;
-        padding: 30px;
+        padding: $intro-padding;
         border-radius: 4px;
         animation: fadeInAnimation ease 2s;
         animation-iteration-count: 1;
@@ -30,11 +30,11 @@
     
         h1 {
             font-size: $h1;
-            padding: 20px;
+            padding: $intro-padding;
         }
         p {
             font-size: $p-intro;
-            padding: 20px;
+            padding: $intro-padding;
         }
     }
     
@@ -577,12 +577,12 @@
     $p: 20px;
     $p-intro: 25px;
     $p-about: 25px;
-    $h1: 70px;
+    $h1: 60px;
     $h2: 50px;
     $h3: 35px;
     $c-width: 100%;
     $p-width: 80%;
-    $intro-width: 90%;
+    $intro-width: 100%;
     $s-width: 80%;
     $about-padding: 0;
     $section-padding: 0;
@@ -592,7 +592,13 @@
     $modal-font: 15px;
     $modal-width: 100%;
     $modal-ratio: 6 / 5;
-    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio);
+    $intro-padding: 5px;
+    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding);
+    .project_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
 @media screen and (min-width: 737px) and (max-width: 980px) {
     $p: 20px;
@@ -613,7 +619,8 @@
     $modal-font: 20px;
     $modal-width: 80%;
     $modal-ratio: 5 / 3;
-    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio);
+    $intro-padding: 15px;
+    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding);
 }
 @media screen and (min-width: 981px) and (max-width: 1280px) {
     $p: 20px;
@@ -634,7 +641,8 @@
     $modal-font: 20px;
     $modal-width: 70%;
     $modal-ratio: 5 / 3;
-    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio);
+    $intro-padding: 15px;
+    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding);
 }
 @media screen and (min-width: 1281px) and (max-width: 1799px) {
     $p: 20px;
@@ -655,7 +663,8 @@
     $modal-font: 20px;
     $modal-width: 50%;
     $modal-ratio: 5 / 3;
-    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio);
+    $intro-padding: 20px;
+    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding);
 }
 @media screen and (min-width: 1800px) {
     $p: 20px;
@@ -676,7 +685,8 @@
     $modal-font: 25px;
     $modal-width: 50%;
     $modal-ratio: 5 / 3;
-    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio);
+    $intro-padding: 20px;
+    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding);
 }
 
 
