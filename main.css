@@ -33,7 +33,7 @@
   .intro {
     color: white;
     text-align: center;
-    max-width: 100%;
+    max-width: 95%;
     margin-top: 150px;
     margin-bottom: 50px;
     padding: 5px;
@@ -144,7 +144,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 80%;
+    width: 100%;
     position: relative;
   }
   .about_container .about_section h3, .about_container .about_section p {
@@ -326,7 +326,7 @@
     transform: translate(-50%, -50%) scale(0);
     background-color: white;
     width: 100%;
-    aspect-ratio: 1.2;
+    aspect-ratio: 1;
     z-index: 12;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   }
@@ -507,7 +507,7 @@
   .intro2 {
     color: white;
     text-align: center;
-    max-width: 100%;
+    max-width: 95%;
     margin-top: 150px;
     margin-bottom: 50px;
     padding: 30px;
