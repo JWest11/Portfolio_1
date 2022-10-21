@@ -535,7 +535,28 @@
     
         &:hover {
             background-color: rgb(149, 151, 233);
-        cursor: pointer;
+            cursor: pointer;
+        }
+    }
+    .thanksContainer {
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+        a {
+            transition-duration: 0.2s;
+            background-color: rgb(187, 187, 187);
+            border: 1px grey solid;
+            border-radius: 8px;
+            padding: 10px;
+            text-decoration: none;
+            color: rgb(112, 0, 134);
+            margin-right: 4px;
+
+            &:hover {
+                background-color: rgb(149, 151, 233);
+                cursor: pointer;
+            }
         }
     }
 
