@@ -286,6 +286,7 @@
   .skills_container img {
     width: 100%;
     height: 100%;
+    max-width: 120px;
   }
 }
 @media screen and (max-width: 736px) {
@@ -573,6 +574,11 @@
   }
 }
 @media screen and (max-width: 736px) {
+  figcaption {
+    color: rgb(107, 107, 107);
+  }
+}
+@media screen and (max-width: 736px) {
   .project_info {
     display: flex;
     flex-direction: column;
@@ -851,6 +857,7 @@
   .skills_container img {
     width: 100%;
     height: 100%;
+    max-width: 120px;
   }
 }
 @media screen and (min-width: 737px) and (max-width: 980px) {
@@ -1137,6 +1144,11 @@
     cursor: pointer;
   }
 }
+@media screen and (min-width: 737px) and (max-width: 980px) {
+  figcaption {
+    color: rgb(107, 107, 107);
+  }
+}
 @media screen and (min-width: 981px) and (max-width: 1280px) {
   * {
     font-family: Arial, Helvetica, sans-serif;
@@ -1409,6 +1421,7 @@
   .skills_container img {
     width: 100%;
     height: 100%;
+    max-width: 120px;
   }
 }
 @media screen and (min-width: 981px) and (max-width: 1280px) {
@@ -1695,6 +1708,11 @@
     cursor: pointer;
   }
 }
+@media screen and (min-width: 981px) and (max-width: 1280px) {
+  figcaption {
+    color: rgb(107, 107, 107);
+  }
+}
 @media screen and (min-width: 1281px) and (max-width: 1799px) {
   * {
     font-family: Arial, Helvetica, sans-serif;
@@ -1967,6 +1985,7 @@
   .skills_container img {
     width: 100%;
     height: 100%;
+    max-width: 120px;
   }
 }
 @media screen and (min-width: 1281px) and (max-width: 1799px) {
@@ -2253,6 +2272,11 @@
     cursor: pointer;
   }
 }
+@media screen and (min-width: 1281px) and (max-width: 1799px) {
+  figcaption {
+    color: rgb(107, 107, 107);
+  }
+}
 @media screen and (min-width: 1800px) {
   * {
     font-family: Arial, Helvetica, sans-serif;
@@ -2525,6 +2549,7 @@
   .skills_container img {
     width: 100%;
     height: 100%;
+    max-width: 120px;
   }
 }
 @media screen and (min-width: 1800px) {
@@ -2809,5 +2834,10 @@
   .thanksContainer a:hover {
     background-color: rgb(149, 151, 233);
     cursor: pointer;
+  }
+}
+@media screen and (min-width: 1800px) {
+  figcaption {
+    color: rgb(107, 107, 107);
   }
 }/*# sourceMappingURL=main.css.map */
