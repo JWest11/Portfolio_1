@@ -48,11 +48,11 @@
         flex-direction: column;
         width: $c-width;
         padding: $section-padding;
-        border-top-left-radius: 4px;
-        border-top-right-radius: 4px;
     
         &.projects {
             background-color: whitesmoke;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
         }
     
         &.about {
