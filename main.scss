@@ -365,6 +365,7 @@
             align-items: center;
             justify-content: space-between;
             width: 100%;
+            height: 25%;
 
             button {
                 transition-duration: 0.2s;
@@ -398,7 +399,7 @@
             flex-direction: row;
             justify-content: space-between;
             align-items: center;
-            height: 100%;
+            height: 75%;
 
             .modal_img_container {
                 width: 50%;
@@ -410,6 +411,7 @@
                 }
             }
             .modal_description {
+                height: 100%;
                 width: 50%;
                 padding-right: 15px;
                 padding-top: $modal-padding;
@@ -417,6 +419,7 @@
                 padding-left: 0;
                 display: flex;
                 flex-direction: column;
+                justify-content: center;
                 align-items: flex-start;
                 font-size: $modal-font;
 
@@ -567,6 +570,10 @@
     figcaption {
         color: rgb(107, 107, 107);
     }
+    .projectDescriptionContainer {
+        height: 75%;
+        overflow-y: scroll;
+    }
 
     
 }
@@ -599,7 +606,7 @@
     $r-img-height: 80px;
     $modal-font: 15px;
     $modal-width: 100%;
-    $modal-ratio: 1;
+    $modal-ratio: 4/3;
     $intro-padding: 5px;
     $modal-padding: 8px;
     $modal-header-font: 35px;
