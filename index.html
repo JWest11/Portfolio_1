@@ -12,6 +12,34 @@
     <title>Joseph West</title>
 </head>
 <body class="bg-main">
+    <div class="modal" id="modal1">
+        <div class="modal_container modal_lg">
+            <div class="header">
+                <h3>Bug Tracker</h3>
+                <button onclick="closeModal('modal1')">X</button>
+            </div>
+            <div class="content">
+                <div class="modal_img_container">
+                    <video class="videoInsert" autoplay muted loop>
+                        <source src="./projectVideos/BugTrackerCapture.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="modal_description">
+                    <h4>Description:</h4>
+                    <div class="projectDescriptionContainer">
+                        <p>A bug tracking website. Admins can create projects, assign users to the project, and create tickets for said projects (with various properties, including user assignmet). Tickets can be commented on, have files uploaded to them. Changes are tracked to a changelob. There are 3 tiers of security (Admin, Manager, Developer) with different permissions and views.</p>
+                    </div>
+                    <h4 class="secondh4">Tech-Stack:</h4>
+                    <p>Flask, SQLite, Python, Bootstrap, CSS, chartsjs, jquery, Javascript.</p>
+                    <div class="button_container">
+                        <a class="btn" href="http://44.202.130.43/" target="_blank"><span>View Project</span></a>
+                        <a class="btn" href="https://github.com/JWest11/BugTracker" target="_blank"><span>View Code</span></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
     <div class="modal" id="modal2">
         <div class="modal_container">
             <div class="header">
@@ -32,32 +60,6 @@
                     <div class="button_container">
                         <a class="btn" href="http://joeywest1414.pythonanywhere.com/" target="_blank"><span>View Project</span></a>
                         <a class="btn" href="https://github.com/JWest11/PetMart" target="_blank"><span>View Code</span></a>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
-    <div class="modal" id="modal4">
-        <div class="modal_container">
-            <div class="header">
-                <h3>Chess</h3>
-                <button onclick="closeModal('modal4')">X</button>
-            </div>
-            <div class="content">
-                <div class="modal_img_container">
-                    <video class="videoInsert" autoplay muted loop>
-                        <source src="./projectVideos/chessCapture.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="modal_description">
-                    <h4>Description:</h4>
-                    <p>Offline chess with all rules incorporated. Created with default Javascript.</p>
-                    <h4 class="secondh4">Tech-Stack:</h4>
-                    <p>Javascript, Jquery, Bootstrap, CSS, HTML.</p>
-                    <div class="button_container">
-                        <a class="btn" href="https://jwest11.github.io/ChessProject/" target="_blank"><span>View Project</span></a>
-                        <a class="btn" href="https://github.com/JWest11/ChessProject" target="_blank"><span>View Code</span></a>
                     </div>
                 </div>
                 
@@ -90,6 +92,32 @@
             </div>
         </div>
     </div>
+    <div class="modal" id="modal4">
+        <div class="modal_container">
+            <div class="header">
+                <h3>Chess</h3>
+                <button onclick="closeModal('modal4')">X</button>
+            </div>
+            <div class="content">
+                <div class="modal_img_container">
+                    <video class="videoInsert" autoplay muted loop>
+                        <source src="./projectVideos/chessCapture.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <div class="modal_description">
+                    <h4>Description:</h4>
+                    <p>Offline chess with all rules incorporated. Created with default Javascript.</p>
+                    <h4 class="secondh4">Tech-Stack:</h4>
+                    <p>Javascript, Jquery, Bootstrap, CSS, HTML.</p>
+                    <div class="button_container">
+                        <a class="btn" href="https://jwest11.github.io/ChessProject/" target="_blank"><span>View Project</span></a>
+                        <a class="btn" href="https://github.com/JWest11/ChessProject" target="_blank"><span>View Code</span></a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
     <!-- <div class="modal" id="modal4">
         <div class="modal_container modal_lg">
             <div class="header">
@@ -116,34 +144,6 @@
             </div>
         </div>
     </div> -->
-    <div class="modal" id="modal1">
-        <div class="modal_container modal_lg">
-            <div class="header">
-                <h3>Bug Tracker</h3>
-                <button onclick="closeModal('modal1')">X</button>
-            </div>
-            <div class="content">
-                <div class="modal_img_container">
-                    <video class="videoInsert" autoplay muted loop>
-                        <source src="./projectVideos/BugTrackerCapture.mp4" type="video/mp4">
-                    </video>
-                </div>
-                <div class="modal_description">
-                    <h4>Description:</h4>
-                    <div class="projectDescriptionContainer">
-                        <p>A bug tracking website. Admins can create projects, assign users to the project, and create tickets for said projects (with various properties, including user assignmet). Tickets can be commented on, have files uploaded to them. Changes are tracked to a changelob. There are 3 tiers of security (Admin, Manager, Developer) with different permissions and views.</p>
-                    </div>
-                    <h4 class="secondh4">Tech-Stack:</h4>
-                    <p>Flask, SQLite, Python, Bootstrap, CSS, chartsjs, jquery, Javascript.</p>
-                    <div class="button_container">
-                        <a class="btn" href="http://44.202.130.43/" target="_blank"><span>View Project</span></a>
-                        <a class="btn" href="https://github.com/JWest11/BugTracker" target="_blank"><span>View Code</span></a>
-                    </div>
-                </div>
-                
-            </div>
-        </div>
-    </div>
     <div class="modal" id="modal5">
         <div class="modal_container">
             <div class="header">
@@ -158,7 +158,7 @@
                 </div>
                 <div class="modal_description">
                     <h4>Description:</h4>
-                    <p>This portfolio website, created from scratch.</p>
+                    <p>This portfolio website.</p>
                     <h4 class="secondh4">Tech-Stack:</h4>
                     <p>CSS, Javascript, Jquery, Sass, HTML.</p>
                     <div class="button_container">
