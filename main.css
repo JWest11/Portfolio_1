@@ -16,7 +16,7 @@
 }
 @media screen and (max-width: 736px) {
   * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -24,8 +24,9 @@
   }
   .bg-main {
     background-image: linear-gradient(to right, rgb(10, 11, 14), rgb(25, 29, 71), rgb(10, 11, 14));
+    background-image: url("bg4.jpg");
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-repeat: repeat;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -74,7 +75,7 @@
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
   }
   .section.contact {
-    background-color: rgb(28, 31, 61);
+    background-color: rgb(24, 24, 24);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
     color: white;
   }
@@ -599,7 +600,7 @@
 }
 @media screen and (min-width: 737px) and (max-width: 980px) {
   * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -607,8 +608,9 @@
   }
   .bg-main {
     background-image: linear-gradient(to right, rgb(10, 11, 14), rgb(25, 29, 71), rgb(10, 11, 14));
+    background-image: url("bg4.jpg");
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-repeat: repeat;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -657,7 +659,7 @@
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
   }
   .section.contact {
-    background-color: rgb(28, 31, 61);
+    background-color: rgb(24, 24, 24);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
     color: white;
   }
@@ -1175,7 +1177,7 @@
 }
 @media screen and (min-width: 981px) and (max-width: 1280px) {
   * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -1183,8 +1185,9 @@
   }
   .bg-main {
     background-image: linear-gradient(to right, rgb(10, 11, 14), rgb(25, 29, 71), rgb(10, 11, 14));
+    background-image: url("bg4.jpg");
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-repeat: repeat;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -1233,7 +1236,7 @@
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
   }
   .section.contact {
-    background-color: rgb(28, 31, 61);
+    background-color: rgb(24, 24, 24);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
     color: white;
   }
@@ -1751,7 +1754,7 @@
 }
 @media screen and (min-width: 1281px) and (max-width: 1799px) {
   * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -1759,8 +1762,9 @@
   }
   .bg-main {
     background-image: linear-gradient(to right, rgb(10, 11, 14), rgb(25, 29, 71), rgb(10, 11, 14));
+    background-image: url("bg4.jpg");
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-repeat: repeat;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -1809,7 +1813,7 @@
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
   }
   .section.contact {
-    background-color: rgb(28, 31, 61);
+    background-color: rgb(24, 24, 24);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
     color: white;
   }
@@ -2327,7 +2331,7 @@
 }
 @media screen and (min-width: 1800px) {
   * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -2335,8 +2339,9 @@
   }
   .bg-main {
     background-image: linear-gradient(to right, rgb(10, 11, 14), rgb(25, 29, 71), rgb(10, 11, 14));
+    background-image: url("bg4.jpg");
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-repeat: repeat;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -2385,7 +2390,7 @@
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
   }
   .section.contact {
-    background-color: rgb(28, 31, 61);
+    background-color: rgb(24, 24, 24);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
     color: white;
   }
