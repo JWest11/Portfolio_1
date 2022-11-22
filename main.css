@@ -23,8 +23,7 @@
     font-weight: 100;
   }
   .bg-main {
-    background-image: linear-gradient(to right, rgb(10, 11, 14), rgb(25, 29, 71), rgb(10, 11, 14));
-    background-image: url("bg4.jpg");
+    background-image: url("bg3.jpg");
     background-attachment: fixed;
     background-repeat: repeat;
     display: flex;
@@ -75,7 +74,7 @@
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
   }
   .section.contact {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(49, 49, 49);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
     color: white;
   }
@@ -607,8 +606,7 @@
     font-weight: 100;
   }
   .bg-main {
-    background-image: linear-gradient(to right, rgb(10, 11, 14), rgb(25, 29, 71), rgb(10, 11, 14));
-    background-image: url("bg4.jpg");
+    background-image: url("bg3.jpg");
     background-attachment: fixed;
     background-repeat: repeat;
     display: flex;
@@ -659,7 +657,7 @@
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
   }
   .section.contact {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(49, 49, 49);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
     color: white;
   }
@@ -1184,8 +1182,7 @@
     font-weight: 100;
   }
   .bg-main {
-    background-image: linear-gradient(to right, rgb(10, 11, 14), rgb(25, 29, 71), rgb(10, 11, 14));
-    background-image: url("bg4.jpg");
+    background-image: url("bg3.jpg");
     background-attachment: fixed;
     background-repeat: repeat;
     display: flex;
@@ -1236,7 +1233,7 @@
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
   }
   .section.contact {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(49, 49, 49);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
     color: white;
   }
@@ -1761,8 +1758,7 @@
     font-weight: 100;
   }
   .bg-main {
-    background-image: linear-gradient(to right, rgb(10, 11, 14), rgb(25, 29, 71), rgb(10, 11, 14));
-    background-image: url("bg4.jpg");
+    background-image: url("bg3.jpg");
     background-attachment: fixed;
     background-repeat: repeat;
     display: flex;
@@ -1813,7 +1809,7 @@
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
   }
   .section.contact {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(49, 49, 49);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
     color: white;
   }
@@ -2338,8 +2334,7 @@
     font-weight: 100;
   }
   .bg-main {
-    background-image: linear-gradient(to right, rgb(10, 11, 14), rgb(25, 29, 71), rgb(10, 11, 14));
-    background-image: url("bg4.jpg");
+    background-image: url("bg3.jpg");
     background-attachment: fixed;
     background-repeat: repeat;
     display: flex;
@@ -2390,7 +2385,7 @@
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
   }
   .section.contact {
-    background-color: rgb(24, 24, 24);
+    background-color: rgb(49, 49, 49);
     box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
     color: white;
   }
