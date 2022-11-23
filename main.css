@@ -284,12 +284,12 @@
 @media screen and (max-width: 736px) {
   .skills_container {
     width: 22%;
-    padding: 12px;
+    padding: 0 4% 10px 4%;
   }
   .skills_container img {
     width: 100%;
     height: 100%;
-    max-width: 120px;
+    max-width: 100px;
   }
 }
 @media screen and (max-width: 736px) {
@@ -464,6 +464,27 @@
     text-decoration: none;
   }
   .button1:hover {
+    background-color: rgb(149, 151, 233);
+    cursor: pointer;
+  }
+}
+@media screen and (max-width: 736px) {
+  .button3 {
+    transition-duration: 0.2s;
+    background-color: rgb(219, 219, 219);
+    color: black;
+    padding: 12px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(168, 168, 168);
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-bottom: 12px;
+  }
+  .button3:hover {
     background-color: rgb(149, 151, 233);
     cursor: pointer;
   }
@@ -867,12 +888,12 @@
 @media screen and (min-width: 737px) and (max-width: 980px) {
   .skills_container {
     width: 22%;
-    padding: 12px;
+    padding: 0 4% 10px 4%;
   }
   .skills_container img {
     width: 100%;
     height: 100%;
-    max-width: 120px;
+    max-width: 100px;
   }
 }
 @media screen and (min-width: 737px) and (max-width: 980px) {
@@ -1047,6 +1068,27 @@
     text-decoration: none;
   }
   .button1:hover {
+    background-color: rgb(149, 151, 233);
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 737px) and (max-width: 980px) {
+  .button3 {
+    transition-duration: 0.2s;
+    background-color: rgb(219, 219, 219);
+    color: black;
+    padding: 12px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(168, 168, 168);
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-bottom: 12px;
+  }
+  .button3:hover {
     background-color: rgb(149, 151, 233);
     cursor: pointer;
   }
@@ -1443,12 +1485,12 @@
 @media screen and (min-width: 981px) and (max-width: 1280px) {
   .skills_container {
     width: 22%;
-    padding: 12px;
+    padding: 0 4% 10px 4%;
   }
   .skills_container img {
     width: 100%;
     height: 100%;
-    max-width: 120px;
+    max-width: 100px;
   }
 }
 @media screen and (min-width: 981px) and (max-width: 1280px) {
@@ -1623,6 +1665,27 @@
     text-decoration: none;
   }
   .button1:hover {
+    background-color: rgb(149, 151, 233);
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 981px) and (max-width: 1280px) {
+  .button3 {
+    transition-duration: 0.2s;
+    background-color: rgb(219, 219, 219);
+    color: black;
+    padding: 12px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(168, 168, 168);
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-bottom: 12px;
+  }
+  .button3:hover {
     background-color: rgb(149, 151, 233);
     cursor: pointer;
   }
@@ -2019,12 +2082,12 @@
 @media screen and (min-width: 1281px) and (max-width: 1799px) {
   .skills_container {
     width: 22%;
-    padding: 12px;
+    padding: 0 4% 10px 4%;
   }
   .skills_container img {
     width: 100%;
     height: 100%;
-    max-width: 120px;
+    max-width: 100px;
   }
 }
 @media screen and (min-width: 1281px) and (max-width: 1799px) {
@@ -2199,6 +2262,27 @@
     text-decoration: none;
   }
   .button1:hover {
+    background-color: rgb(149, 151, 233);
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 1281px) and (max-width: 1799px) {
+  .button3 {
+    transition-duration: 0.2s;
+    background-color: rgb(219, 219, 219);
+    color: black;
+    padding: 12px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(168, 168, 168);
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-bottom: 12px;
+  }
+  .button3:hover {
     background-color: rgb(149, 151, 233);
     cursor: pointer;
   }
@@ -2595,12 +2679,12 @@
 @media screen and (min-width: 1800px) {
   .skills_container {
     width: 22%;
-    padding: 12px;
+    padding: 0 4% 10px 4%;
   }
   .skills_container img {
     width: 100%;
     height: 100%;
-    max-width: 120px;
+    max-width: 100px;
   }
 }
 @media screen and (min-width: 1800px) {
@@ -2775,6 +2859,27 @@
     text-decoration: none;
   }
   .button1:hover {
+    background-color: rgb(149, 151, 233);
+    cursor: pointer;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .button3 {
+    transition-duration: 0.2s;
+    background-color: rgb(219, 219, 219);
+    color: black;
+    padding: 12px;
+    font-size: 18px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid rgb(168, 168, 168);
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    vertical-align: middle;
+    margin-bottom: 12px;
+  }
+  .button3:hover {
     background-color: rgb(149, 151, 233);
     cursor: pointer;
   }
