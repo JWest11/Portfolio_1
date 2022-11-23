@@ -348,6 +348,7 @@
         background-color: white;
         width: $modal-width;
         aspect-ratio: $modal-ratio;
+        max-width: 1000px;
         z-index:12;
         box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 

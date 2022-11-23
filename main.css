@@ -370,6 +370,7 @@
     background-color: white;
     width: 100%;
     aspect-ratio: 1.3333333333;
+    max-width: 1000px;
     z-index: 12;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   }
@@ -1013,6 +1014,7 @@
     background-color: white;
     width: 80%;
     aspect-ratio: 1.6666666667;
+    max-width: 1000px;
     z-index: 12;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   }
@@ -1649,6 +1651,7 @@
     background-color: white;
     width: 70%;
     aspect-ratio: 1.6666666667;
+    max-width: 1000px;
     z-index: 12;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   }
@@ -2285,6 +2288,7 @@
     background-color: white;
     width: 50%;
     aspect-ratio: 1.6666666667;
+    max-width: 1000px;
     z-index: 12;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   }
@@ -2921,6 +2925,7 @@
     background-color: white;
     width: 50%;
     aspect-ratio: 1.6666666667;
+    max-width: 1000px;
     z-index: 12;
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2);
   }
