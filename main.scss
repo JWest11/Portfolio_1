@@ -1,7 +1,7 @@
-@mixin styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding, $modal-padding, $modal-header-font, $modal-button-margin) {
+@mixin styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding, $modal-padding, $modal-header-font, $modal-button-margin, $intro-p-width) {
 
     * {
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-family:'Times New Roman', Times, serif;
         box-sizing: border-box;
         margin: 0;
         padding: 0;
@@ -9,7 +9,7 @@
     }
     
     .bg-main {
-        background-image: url("bg3.jpg");
+        background-image: url("bg7.jpg");
         background-attachment: fixed;
         background-repeat: repeat;
         display: flex;
@@ -27,14 +27,30 @@
         animation: fadeInAnimation ease 2s;
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     
         h1 {
             font-size: $h1;
             padding: $intro-padding;
+            
+        }
+        div {
+            width: 70%;
+            border-bottom: 1px solid white;
+            margin-bottom: 7px;
+            margin-top: 7px;
+            @media screen and (min-width: 1600px) {
+                width: 50%;
+            }
         }
         p {
             font-size: $p-intro;
-            padding: $intro-padding;
+            width: $intro-p-width;
+            padding-top: 15px;
+            padding-bottom: 10px;
         }
     }
     
@@ -47,12 +63,11 @@
         justify-content: center;
         flex-direction: column;
         width: $c-width;
+        max-width: 1600px;
         padding: $section-padding;
     
         &.projects {
             background-color: whitesmoke;
-            border-top-left-radius: 4px;
-            border-top-right-radius: 4px;
         }
     
         &.about {
@@ -61,9 +76,11 @@
         }
     
         &.contact {
-            background-color: rgb(49, 49, 49);
+            background-color: rgb(63, 62, 62);
             box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1) inset;
             color: white;
+            margin-bottom: 150px;
+            padding-bottom: 100px;
         }
     }
     
@@ -138,6 +155,10 @@
             justify-content: center;
             width: $s-width;
             position: relative;
+            @media screen and (max-width: 736px) {
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
     
             h3, p {
                 margin: 28px;
@@ -274,6 +295,7 @@
         justify-content: center;
         flex-direction: row;
         flex-wrap: wrap;
+        width: 90%;
     }
     .skills_container {
         width: 22%;
@@ -631,7 +653,8 @@
     $modal-padding: 8px;
     $modal-header-font: 35px;
     $modal-button-margin: 3px;
-    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding, $modal-padding, $modal-header-font, $modal-button-margin);
+    $intro-p-width: 100%;
+    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding, $modal-padding, $modal-header-font, $modal-button-margin, $intro-p-width);
     .project_info {
         display: flex;
         flex-direction: column;
@@ -661,7 +684,8 @@
     $modal-padding: 15px;
     $modal-header-font: 45px;
     $modal-button-margin: 10px;
-    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding, $modal-padding, $modal-header-font, $modal-button-margin);
+    $intro-p-width: 100%;
+    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding, $modal-padding, $modal-header-font, $modal-button-margin, $intro-p-width);
 }
 @media screen and (min-width: 981px) and (max-width: 1280px) {
     $p: 20px;
@@ -686,7 +710,8 @@
     $modal-padding: 15px;
     $modal-header-font: 45px;
     $modal-button-margin: 10px;
-    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding, $modal-padding, $modal-header-font, $modal-button-margin);
+    $intro-p-width: 100%;
+    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding, $modal-padding, $modal-header-font, $modal-button-margin, $intro-p-width);
 }
 @media screen and (min-width: 1281px) and (max-width: 1799px) {
     $p: 20px;
@@ -711,7 +736,8 @@
     $modal-padding: 15px;
     $modal-header-font: 45px;
     $modal-button-margin: 10px;
-    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding, $modal-padding, $modal-header-font, $modal-button-margin);
+    $intro-p-width: 100%;
+    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding, $modal-padding, $modal-header-font, $modal-button-margin, $intro-p-width);
 }
 @media screen and (min-width: 1800px) {
     $p: 20px;
@@ -727,8 +753,8 @@
     $about-padding: 25px;
     $about-padding2: 30px;
     $section-padding: 40px;
-    $r-img-width: 70px;
-    $r-img-height: 90px;
+    $r-img-width: 80px;
+    $r-img-height: 105px;
     $modal-font: 25px;
     $modal-width: 50%;
     $modal-ratio: 5 / 3;
@@ -736,7 +762,8 @@
     $modal-padding: 15px;
     $modal-header-font: 45px;
     $modal-button-margin: 10px;
-    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding, $modal-padding, $modal-header-font, $modal-button-margin);
+    $intro-p-width: 70%;
+    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding, $modal-padding, $modal-header-font, $modal-button-margin, $intro-p-width);
 }
 
 
