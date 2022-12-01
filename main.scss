@@ -629,9 +629,38 @@
         opacity: 1;
      }
 }
-
-
-@media screen and (max-width: 736px) {
+@media screen and (max-width: 500px) {
+    $p: 20px;
+    $p-intro: 25px;
+    $p-about: 25px;
+    $h1: 60px;
+    $h2: 50px;
+    $h3: 35px;
+    $c-width: 100%;
+    $p-width: 80%;
+    $intro-width: 95%;
+    $s-width: 100%;
+    $about-padding: 0;
+    $section-padding: 0;
+    $about-padding2: 0;
+    $r-img-width: 60px;
+    $r-img-height: 80px;
+    $modal-font: 15px;
+    $modal-width: 100%;
+    $modal-ratio: 1;
+    $intro-padding: 5px;
+    $modal-padding: 8px;
+    $modal-header-font: 35px;
+    $modal-button-margin: 3px;
+    $intro-p-width: 100%;
+    @include styling($p, $p-intro, $p-about, $h1, $h2, $h3, $c-width, $p-width, $s-width, $intro-width, $about-padding, $about-padding2, $section-padding, $r-img-width, $r-img-height, $modal-font, $modal-width, $modal-ratio, $intro-padding, $modal-padding, $modal-header-font, $modal-button-margin, $intro-p-width);
+    .project_info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 736px) {
     $p: 20px;
     $p-intro: 25px;
     $p-about: 25px;
